@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    background-color: #2d2d2d;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    height: 10vh;
+    width: 90%;
+    margin-left:auto ;
+    margin-right:auto ;
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #726868;
+    
+}
+
+#ml-logo{
+    width: 8rem;
+}
+
+#nav-right{
+    display: flex;
+    gap: 2vw;
+}
+
+#nav-right a{
+    font-size: 1.3rem;
+    color: #fff9f9;
+    text-decoration: none;
+    transition: font-weight .2s;
+}
+
+#heading{
+    margin-top: 20rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 4.5vw;
+}
+
+#heading-1 span{
+    color: #ff7801;
+}
+
+#heading-2{
+    font-size: 1.3vw;
+    font-weight: lighter;
+    line-height: 3;
+}
+
+#hero-footer{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    /* margin-top: 30vh;
+    margin-left: 90vw; */
+    color: rgba(245, 245, 245, 0.6);
+    font-size: .9vw;
+    font-weight: light;
+}
+
+#about-section{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(225, 249, 249); */
+}
+
+#about-section{
+    display: flex;
+    position: relative;
+    /* margin-top: -200px; */
+}
+#about-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-box-left{
+    padding: 8%;
+   background:  
+    linear-gradient(
+     rgba(0, 0, 0, 0.534), 
+     rgba(0, 0, 0, 0.53)
+    ),
+    url(assets/images/ml\ team.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+    width: 80%;
+    border-radius: .7rem;
+    /* margin: 25vh auto 3vh auto; */;
+}
+
+#about-box-left p{
+    line-height: 1.3;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+#about-right{
+    display: flex;
+    /* justify-content: left; */
+    /* align-items: center; */
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(129, 210, 237); */
+}
+
+#about-right-heading{
+    /* position: absolute; */
+    /* top: 25%; */
+    /* right: 60%; */
+    margin-top: 22vh;
+    margin-left: 5vw;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#about-right hr{
+    width: 33%;
+    border-color: #ff7801;
+}
+
+/* Nav Hover */
+#about-nav:hover{
+    font-weight: lighter;
+}
+#projects-nav:hover{
+    font-weight: lighter
+}
+#testimonials-nav:hover{
+    font-weight: lighter;
+}
